@@ -1,0 +1,18 @@
+{
+  "name": "leads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon js/index.js --ignore results.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ajar/marker": "^1.3.3",
+    "bluebird": "^3.7.2",
+    "nodemon": "^2.0.20"
+  }
+}
